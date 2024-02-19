@@ -32,6 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnUserLogin = new System.Windows.Forms.Button();
             this.btnAdminLogin = new System.Windows.Forms.Button();
+            this.btnRegister = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -42,7 +43,7 @@
             this.label1.ForeColor = System.Drawing.Color.Ivory;
             this.label1.Location = new System.Drawing.Point(207, 129);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(380, 45);
+            this.label1.Size = new System.Drawing.Size(361, 44);
             this.label1.TabIndex = 0;
             this.label1.Text = "Knowledge Hub®️ 1.0";
             // 
@@ -72,6 +73,16 @@
             this.btnAdminLogin.UseVisualStyleBackColor = false;
             this.btnAdminLogin.Click += new System.EventHandler(this.btnAdminLogin_Click);
             // 
+            // btnRegister
+            // 
+            this.btnRegister.Location = new System.Drawing.Point(308, 317);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(178, 40);
+            this.btnRegister.TabIndex = 2;
+            this.btnRegister.Text = "Register";
+            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
+            // 
             // Welcome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -79,6 +90,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnAdminLogin);
             this.Controls.Add(this.btnUserLogin);
             this.Controls.Add(this.label1);
@@ -94,5 +106,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnUserLogin;
         private System.Windows.Forms.Button btnAdminLogin;
+        private System.Windows.Forms.Button btnRegister;
     }
 }

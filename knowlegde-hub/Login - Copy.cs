@@ -11,10 +11,10 @@ using System.Windows.Forms;
 
 namespace knowlegde_hub
 {
-    public partial class Login : Form
+    public partial class UserLogin : Form
     {
         int LoginMode;
-        public Login(int mode)
+        public UserLogin(int mode)
         {
             LoginMode = mode;
             InitializeComponent();
@@ -30,8 +30,11 @@ namespace knowlegde_hub
             }
             else
             {
+                bool auth = Authenticate();
+
+
                 // Check if the username and password are correct
-                if (LoginMode == 0 && Authenticate())
+                if (LoginMode == 0 && auth)
                 {
                     // Hide the current form
                     this.Hide();
@@ -40,12 +43,7 @@ namespace knowlegde_hub
                     AdminDashboard adminDashboard = new AdminDashboard();
                     adminDashboard.Show();
                 }
-                else
-                {
-                     MessageBox.Show("Invalid username or password");
-                }
-
-                if (LoginMode == 1 && Authenticate())
+                else if (LoginMode == 1 && auth)
                 {
                     // Hide the current form
                     this.Hide();

@@ -23,7 +23,7 @@ namespace knowlegde_hub
             this.Hide();
 
             // Create an instance of the UserLogin form
-            Login userLogin = new Login(1);
+            UserLogin userLogin = new UserLogin();
 
             // Show the UserLogin form
             userLogin.Show();
@@ -35,11 +35,23 @@ namespace knowlegde_hub
             this.Hide();
 
             // Create an instance of the AdminLogin form
-            Login adminLogin = new Login(0);
+            AdminLogin adminLogin = new AdminLogin();
 
             // Show the AdminLogin form
             adminLogin.Show();
 
+        }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            // Hide the current form
+            this.Hide();
+
+            // Create an instance of the Register form
+            Register register = new Register();
+
+            // Show the Register form
+            register.Show();
         }
     }
 }
