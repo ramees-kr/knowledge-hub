@@ -16,5 +16,12 @@ namespace knowlegde_hub
         {
             InitializeComponent();
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Welcome welcome = new Welcome();
+            welcome.Show();
+        }
     }
 }
