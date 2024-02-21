@@ -12,9 +12,11 @@ namespace knowlegde_hub
 {
     public partial class Register : Form
     {
-        public Register()
+        private Library library;
+        public Register(Library library)
         {
             InitializeComponent();
+            this.library = library;
         }
 
         private void btnSignup_Click(object sender, EventArgs e)
@@ -34,6 +36,12 @@ namespace knowlegde_hub
             }
             else
             {
+                // Create a new patron
+                Patron newPatron = new Patron(txtUsername.Text, txtEmail.Text, txtPassword.Text);
+
+                // Add the patron to the library
+                library.AddPatron(newPatron);
+
                 // Display a success message
                 MessageBox.Show("Account created successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 

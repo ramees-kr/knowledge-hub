@@ -17,6 +17,7 @@ namespace knowlegde_hub
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Welcome());
+
         }
     }
 }
