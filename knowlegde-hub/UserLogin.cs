@@ -12,9 +12,11 @@ namespace knowlegde_hub
 {
     public partial class UserLogin : Form
     {
-        public UserLogin()
+        private Library library;
+        public UserLogin(Library library)
         {
             InitializeComponent();
+            this.library = library;
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -43,8 +45,10 @@ namespace knowlegde_hub
                 // Hide the current form
                 this.Hide();
 
+                Patron loggedInUser = new Patron(username);
+
                 // Create an instance of the UserDashboard form
-                UserDashboard userDashboard = new UserDashboard();
+                UserDashboard userDashboard = new UserDashboard(library, loggedInUser);
 
                 // Show the UserDashboard form
                 userDashboard.Show();

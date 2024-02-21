@@ -13,9 +13,11 @@ namespace knowlegde_hub
 {
     public partial class AdminLogin : Form
     {
-        public AdminLogin()
+        private Library library;
+        public AdminLogin(Library library)
         {
             InitializeComponent();
+            this.library = library;
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -45,7 +47,7 @@ namespace knowlegde_hub
                 this.Hide();
 
                 // Create an instance of the AdminDashboard form
-                AdminDashboard adminDashboard = new AdminDashboard();
+                AdminDashboard adminDashboard = new AdminDashboard(library);
 
                 // Show the AdminDashboard form
                 adminDashboard.Show();

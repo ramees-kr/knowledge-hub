@@ -12,8 +12,10 @@ namespace knowlegde_hub
 {
     public partial class AdminDashboard : Form
     {
-        public AdminDashboard()
+        private Library library;
+        public AdminDashboard(Library library)
         {
+            this.library = library;
             InitializeComponent();
         }
 
@@ -23,5 +25,7 @@ namespace knowlegde_hub
             Welcome welcome = new Welcome();
             welcome.Show();
         }
+
+
     }
 }

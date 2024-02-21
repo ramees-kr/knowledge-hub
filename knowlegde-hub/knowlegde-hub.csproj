@@ -66,6 +66,8 @@
     <Compile Include="Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <Compile Include="Resource.cs" />
+    <Compile Include="User.cs" />
     <Compile Include="UserDashboard.cs">
       <SubType>Form</SubType>
     </Compile>

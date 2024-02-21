@@ -12,8 +12,12 @@ namespace knowlegde_hub
 {
     public partial class UserDashboard : Form
     {
-        public UserDashboard()
+        private Library library;
+        private Patron currentPatron;
+        public UserDashboard(Library library, Patron patron)
         {
+            this.library = library;
+            this.currentPatron = patron;
             InitializeComponent();
         }
 
