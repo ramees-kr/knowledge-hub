@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\knowlege-hub\\knowledge-hub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|D:\\Projects\\knowlege-hub\\knowledge-hub\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|solutionrelative:library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|d:\\projects\\knowlege-hub\\knowledge-hub\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|solutionrelative:admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|d:\\projects\\knowlege-hub\\knowledge-hub\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|solutionrelative:admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|D:\\Projects\\knowlege-hub\\knowledge-hub\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|D:\\Projects\\knowlege-hub\\knowledge-hub\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|D:\\Projects\\knowlege-hub\\knowledge-hub\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|D:\\Projects\\knowlege-hub\\knowledge-hub\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|D:\\Projects\\knowlege-hub\\knowledge-hub\\borrowingtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|solutionrelative:borrowingtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|D:\\Projects\\knowlege-hub\\knowledge-hub\\admindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|solutionrelative:admindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|D:\\Projects\\knowlege-hub\\knowledge-hub\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|solutionrelative:userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|D:\\Projects\\knowlege-hub\\knowledge-hub\\patron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|solutionrelative:patron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|D:\\Projects\\knowlege-hub\\knowledge-hub\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|D:\\Projects\\knowlege-hub\\knowledge-hub\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|solutionrelative:librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|D:\\Projects\\knowlege-hub\\knowledge-hub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|D:\\Projects\\knowlege-hub\\knowledge-hub\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|D:\\Projects\\knowlege-hub\\knowledge-hub\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F4CC21-512C-4CE0-BBC1-5B09103DBE20}|knowledge-hub.csproj|solutionrelative:userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminDashboard.cs",
+              "DocumentMoniker": "D:\\Projects\\knowlege-hub\\knowledge-hub\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "AdminDashboard.cs",
+              "ToolTip": "D:\\Projects\\knowlege-hub\\knowledge-hub\\AdminDashboard.cs",
+              "RelativeToolTip": "AdminDashboard.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAlwCYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T23:39:31.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Projects\\knowlege-hub\\knowledge-hub\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "D:\\Projects\\knowlege-hub\\knowledge-hub\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T19:45:38.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Library.cs",
+              "DocumentMoniker": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Library.cs",
+              "RelativeDocumentMoniker": "Library.cs",
+              "ToolTip": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Library.cs",
+              "RelativeToolTip": "Library.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAApwDsAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T06:52:02.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminDashboard.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\knowlege-hub\\knowledge-hub\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "AdminDashboard.cs",
+              "ToolTip": "D:\\Projects\\knowlege-hub\\knowledge-hub\\AdminDashboard.cs [Design]",
+              "RelativeToolTip": "AdminDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T06:50:23.568Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BorrowingTransaction.cs",
+              "DocumentMoniker": "D:\\Projects\\knowlege-hub\\knowledge-hub\\BorrowingTransaction.cs",
+              "RelativeDocumentMoniker": "BorrowingTransaction.cs",
+              "ToolTip": "D:\\Projects\\knowlege-hub\\knowledge-hub\\BorrowingTransaction.cs",
+              "RelativeToolTip": "BorrowingTransaction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T20:57:36.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Login.cs [Design]",
+              "RelativeToolTip": "Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T19:45:28.94Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAIAwwBgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T19:45:32.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Book.cs",
+              "RelativeDocumentMoniker": "Book.cs",
+              "ToolTip": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Book.cs",
+              "RelativeToolTip": "Book.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAIwDsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:34:34.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminDashboard.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\knowlege-hub\\knowledge-hub\\AdminDashboard.Designer.cs",
+              "RelativeDocumentMoniker": "AdminDashboard.Designer.cs",
+              "ToolTip": "D:\\Projects\\knowlege-hub\\knowledge-hub\\AdminDashboard.Designer.cs",
+              "RelativeToolTip": "AdminDashboard.Designer.cs",
+              "ViewState": "AQIAAJcBAAAAAAAAAAAQwJgBAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T21:45:52.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Patron.cs",
+              "DocumentMoniker": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Patron.cs",
+              "RelativeDocumentMoniker": "Patron.cs",
+              "ToolTip": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Patron.cs",
+              "RelativeToolTip": "Patron.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:30:02.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Register.cs",
+              "RelativeDocumentMoniker": "Register.cs",
+              "ToolTip": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Register.cs",
+              "RelativeToolTip": "Register.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:32:10.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Librarian.cs",
+              "DocumentMoniker": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Librarian.cs",
+              "RelativeDocumentMoniker": "Librarian.cs",
+              "ToolTip": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Librarian.cs",
+              "RelativeToolTip": "Librarian.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:29:56.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserDashboard.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\knowlege-hub\\knowledge-hub\\UserDashboard.cs",
+              "RelativeDocumentMoniker": "UserDashboard.cs",
+              "ToolTip": "D:\\Projects\\knowlege-hub\\knowledge-hub\\UserDashboard.cs [Design]",
+              "RelativeToolTip": "UserDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T06:54:02.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserDashboard.cs",
+              "DocumentMoniker": "D:\\Projects\\knowlege-hub\\knowledge-hub\\UserDashboard.cs",
+              "RelativeDocumentMoniker": "UserDashboard.cs",
+              "ToolTip": "D:\\Projects\\knowlege-hub\\knowledge-hub\\UserDashboard.cs",
+              "RelativeToolTip": "UserDashboard.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAApwBUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T06:54:05.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:35:13.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Register.cs",
+              "RelativeDocumentMoniker": "Register.cs",
+              "ToolTip": "D:\\Projects\\knowlege-hub\\knowledge-hub\\Register.cs [Design]",
+              "RelativeToolTip": "Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T06:49:59.982Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
