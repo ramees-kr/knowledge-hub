@@ -37,6 +37,12 @@ namespace knowlegde_hub
 
             // Get total number of books in the library and load in textBoxBooksCount
             textBoxBooksCount.Text = Library.Instance.GetTotalBooks().ToString();
+
+            // Get total number of users in the library and load in textBoxUsersCount
+            textBoxPatronsCount.Text = Library.Instance.GetTotalUsers(UserType.Patron).ToString();
+
+            // Get total number of issued books in the library and load in textBoxIssuedBooksCount
+            textBoxIssuedBooksCount.Text = Library.Instance.GetTotalIssuedBooks().ToString();
         }
 
 

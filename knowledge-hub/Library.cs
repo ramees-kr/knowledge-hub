@@ -68,6 +68,12 @@ namespace knowledge_hub
             return Books.Count();
         }
 
+        //return the total number of users in the library
+        public int GetTotalUsers(UserType type)
+        {
+            return Users.Count(u => u.Type == type);
+        }
+
         public static int GetUniqueID()
         {
             return ++idCounter; // Increment counter and return the value

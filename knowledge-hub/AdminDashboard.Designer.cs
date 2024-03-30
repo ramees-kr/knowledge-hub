@@ -54,25 +54,30 @@
             this.labelBooksCount = new System.Windows.Forms.Label();
             this.textBoxPatronsCount = new System.Windows.Forms.TextBox();
             this.labelPatronsInventory = new System.Windows.Forms.Label();
-            this.listBoxBooksCatalog = new System.Windows.Forms.ListBox();
-            this.labelBooksCatalog = new System.Windows.Forms.Label();
-            this.labelPatrons = new System.Windows.Forms.Label();
-            this.listBoxPatrons = new System.Windows.Forms.ListBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
             this.labelSearch = new System.Windows.Forms.Label();
             this.comboBoxFilterAttribute = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.comboBoxFilterType = new System.Windows.Forms.ComboBox();
+            this.dataGridViewPatrons = new System.Windows.Forms.DataGridView();
+            this.groupBoxPatrons = new System.Windows.Forms.GroupBox();
+            this.groupBoxBooks = new System.Windows.Forms.GroupBox();
+            this.dataGridViewBooks = new System.Windows.Forms.DataGridView();
+            this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.groupBoxInventoryStats.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPatrons)).BeginInit();
+            this.groupBoxPatrons.SuspendLayout();
+            this.groupBoxBooks.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBooks)).BeginInit();
             this.SuspendLayout();
             // 
             // btnClose
             // 
             this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnClose.Location = new System.Drawing.Point(1038, 485);
+            this.btnClose.Location = new System.Drawing.Point(1061, 605);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(93, 38);
             this.btnClose.TabIndex = 0;
@@ -91,7 +96,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1152, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1201, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -128,6 +133,7 @@
             this.booksToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addBooksToolStripMenuItem,
             this.updateBooksToolStripMenuItem,
+            this.deleteToolStripMenuItem,
             this.viewBooksToolStripMenuItem});
             this.booksToolStripMenuItem.Name = "booksToolStripMenuItem";
             this.booksToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
@@ -136,19 +142,19 @@
             // addBooksToolStripMenuItem
             // 
             this.addBooksToolStripMenuItem.Name = "addBooksToolStripMenuItem";
-            this.addBooksToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
+            this.addBooksToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.addBooksToolStripMenuItem.Text = "&Add";
             // 
             // updateBooksToolStripMenuItem
             // 
             this.updateBooksToolStripMenuItem.Name = "updateBooksToolStripMenuItem";
-            this.updateBooksToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
+            this.updateBooksToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.updateBooksToolStripMenuItem.Text = "&Update";
             // 
             // viewBooksToolStripMenuItem
             // 
             this.viewBooksToolStripMenuItem.Name = "viewBooksToolStripMenuItem";
-            this.viewBooksToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
+            this.viewBooksToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.viewBooksToolStripMenuItem.Text = "&View";
             // 
             // patronsToolStripMenuItem
@@ -165,25 +171,25 @@
             // addPatronsToolStripMenuItem
             // 
             this.addPatronsToolStripMenuItem.Name = "addPatronsToolStripMenuItem";
-            this.addPatronsToolStripMenuItem.Size = new System.Drawing.Size(136, 26);
+            this.addPatronsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.addPatronsToolStripMenuItem.Text = "&Add";
             // 
             // editPatronsToolStripMenuItem
             // 
             this.editPatronsToolStripMenuItem.Name = "editPatronsToolStripMenuItem";
-            this.editPatronsToolStripMenuItem.Size = new System.Drawing.Size(136, 26);
+            this.editPatronsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.editPatronsToolStripMenuItem.Text = "&Edit";
             // 
             // deletePatronsToolStripMenuItem
             // 
             this.deletePatronsToolStripMenuItem.Name = "deletePatronsToolStripMenuItem";
-            this.deletePatronsToolStripMenuItem.Size = new System.Drawing.Size(136, 26);
+            this.deletePatronsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.deletePatronsToolStripMenuItem.Text = "&Delete";
             // 
             // viewPatronsToolStripMenuItem
             // 
             this.viewPatronsToolStripMenuItem.Name = "viewPatronsToolStripMenuItem";
-            this.viewPatronsToolStripMenuItem.Size = new System.Drawing.Size(136, 26);
+            this.viewPatronsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.viewPatronsToolStripMenuItem.Text = "&View";
             // 
             // profileToolStripMenuItem
@@ -212,14 +218,14 @@
             this.groupBoxInventoryStats.Controls.Add(this.labelPatronsInventory);
             this.groupBoxInventoryStats.Location = new System.Drawing.Point(14, 45);
             this.groupBoxInventoryStats.Name = "groupBoxInventoryStats";
-            this.groupBoxInventoryStats.Size = new System.Drawing.Size(1117, 87);
+            this.groupBoxInventoryStats.Size = new System.Drawing.Size(1164, 87);
             this.groupBoxInventoryStats.TabIndex = 2;
             this.groupBoxInventoryStats.TabStop = false;
             this.groupBoxInventoryStats.Text = "Inventory";
             // 
             // textBoxFines
             // 
-            this.textBoxFines.Location = new System.Drawing.Point(352, 37);
+            this.textBoxFines.Location = new System.Drawing.Point(391, 37);
             this.textBoxFines.Name = "textBoxFines";
             this.textBoxFines.Size = new System.Drawing.Size(112, 24);
             this.textBoxFines.TabIndex = 7;
@@ -227,7 +233,7 @@
             // labelFines
             // 
             this.labelFines.AutoSize = true;
-            this.labelFines.Location = new System.Drawing.Point(271, 40);
+            this.labelFines.Location = new System.Drawing.Point(310, 40);
             this.labelFines.Name = "labelFines";
             this.labelFines.Size = new System.Drawing.Size(75, 18);
             this.labelFines.TabIndex = 6;
@@ -236,7 +242,7 @@
             // labelCheckedOutCount
             // 
             this.labelCheckedOutCount.AutoSize = true;
-            this.labelCheckedOutCount.Location = new System.Drawing.Point(800, 37);
+            this.labelCheckedOutCount.Location = new System.Drawing.Point(866, 37);
             this.labelCheckedOutCount.Name = "labelCheckedOutCount";
             this.labelCheckedOutCount.Size = new System.Drawing.Size(95, 18);
             this.labelCheckedOutCount.TabIndex = 5;
@@ -244,14 +250,14 @@
             // 
             // textBoxCheckedOutCount
             // 
-            this.textBoxCheckedOutCount.Location = new System.Drawing.Point(901, 37);
+            this.textBoxCheckedOutCount.Location = new System.Drawing.Point(967, 37);
             this.textBoxCheckedOutCount.Name = "textBoxCheckedOutCount";
             this.textBoxCheckedOutCount.Size = new System.Drawing.Size(157, 24);
             this.textBoxCheckedOutCount.TabIndex = 4;
             // 
             // textBoxBooksCount
             // 
-            this.textBoxBooksCount.Location = new System.Drawing.Point(613, 37);
+            this.textBoxBooksCount.Location = new System.Drawing.Point(679, 37);
             this.textBoxBooksCount.Name = "textBoxBooksCount";
             this.textBoxBooksCount.Size = new System.Drawing.Size(132, 24);
             this.textBoxBooksCount.TabIndex = 3;
@@ -259,7 +265,7 @@
             // labelBooksCount
             // 
             this.labelBooksCount.AutoSize = true;
-            this.labelBooksCount.Location = new System.Drawing.Point(518, 40);
+            this.labelBooksCount.Location = new System.Drawing.Point(584, 40);
             this.labelBooksCount.Name = "labelBooksCount";
             this.labelBooksCount.Size = new System.Drawing.Size(89, 18);
             this.labelBooksCount.TabIndex = 2;
@@ -280,42 +286,6 @@
             this.labelPatronsInventory.Size = new System.Drawing.Size(60, 18);
             this.labelPatronsInventory.TabIndex = 0;
             this.labelPatronsInventory.Text = "Patrons";
-            // 
-            // listBoxBooksCatalog
-            // 
-            this.listBoxBooksCatalog.FormattingEnabled = true;
-            this.listBoxBooksCatalog.ItemHeight = 18;
-            this.listBoxBooksCatalog.Location = new System.Drawing.Point(19, 289);
-            this.listBoxBooksCatalog.Name = "listBoxBooksCatalog";
-            this.listBoxBooksCatalog.Size = new System.Drawing.Size(580, 184);
-            this.listBoxBooksCatalog.TabIndex = 3;
-            // 
-            // labelBooksCatalog
-            // 
-            this.labelBooksCatalog.AutoSize = true;
-            this.labelBooksCatalog.Location = new System.Drawing.Point(16, 265);
-            this.labelBooksCatalog.Name = "labelBooksCatalog";
-            this.labelBooksCatalog.Size = new System.Drawing.Size(59, 18);
-            this.labelBooksCatalog.TabIndex = 4;
-            this.labelBooksCatalog.Text = "Catalog";
-            // 
-            // labelPatrons
-            // 
-            this.labelPatrons.AutoSize = true;
-            this.labelPatrons.Location = new System.Drawing.Point(622, 264);
-            this.labelPatrons.Name = "labelPatrons";
-            this.labelPatrons.Size = new System.Drawing.Size(60, 18);
-            this.labelPatrons.TabIndex = 5;
-            this.labelPatrons.Text = "Patrons";
-            // 
-            // listBoxPatrons
-            // 
-            this.listBoxPatrons.FormattingEnabled = true;
-            this.listBoxPatrons.ItemHeight = 18;
-            this.listBoxPatrons.Location = new System.Drawing.Point(625, 289);
-            this.listBoxPatrons.Name = "listBoxPatrons";
-            this.listBoxPatrons.Size = new System.Drawing.Size(506, 184);
-            this.listBoxPatrons.TabIndex = 6;
             // 
             // textBox1
             // 
@@ -359,7 +329,7 @@
             this.groupBox1.Controls.Add(this.labelSearch);
             this.groupBox1.Location = new System.Drawing.Point(14, 150);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1117, 85);
+            this.groupBox1.Size = new System.Drawing.Size(1164, 85);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Search";
@@ -372,18 +342,68 @@
             this.comboBoxFilterType.Size = new System.Drawing.Size(132, 26);
             this.comboBoxFilterType.TabIndex = 11;
             // 
+            // dataGridViewPatrons
+            // 
+            this.dataGridViewPatrons.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataGridViewPatrons.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridViewPatrons.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewPatrons.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewPatrons.Location = new System.Drawing.Point(3, 20);
+            this.dataGridViewPatrons.Name = "dataGridViewPatrons";
+            this.dataGridViewPatrons.RowHeadersWidth = 51;
+            this.dataGridViewPatrons.RowTemplate.Height = 24;
+            this.dataGridViewPatrons.Size = new System.Drawing.Size(550, 300);
+            this.dataGridViewPatrons.TabIndex = 12;
+            // 
+            // groupBoxPatrons
+            // 
+            this.groupBoxPatrons.Controls.Add(this.dataGridViewPatrons);
+            this.groupBoxPatrons.Location = new System.Drawing.Point(625, 255);
+            this.groupBoxPatrons.Name = "groupBoxPatrons";
+            this.groupBoxPatrons.Size = new System.Drawing.Size(556, 323);
+            this.groupBoxPatrons.TabIndex = 13;
+            this.groupBoxPatrons.TabStop = false;
+            this.groupBoxPatrons.Text = "Patrons";
+            // 
+            // groupBoxBooks
+            // 
+            this.groupBoxBooks.Controls.Add(this.dataGridViewBooks);
+            this.groupBoxBooks.Location = new System.Drawing.Point(14, 255);
+            this.groupBoxBooks.Name = "groupBoxBooks";
+            this.groupBoxBooks.Size = new System.Drawing.Size(585, 323);
+            this.groupBoxBooks.TabIndex = 14;
+            this.groupBoxBooks.TabStop = false;
+            this.groupBoxBooks.Text = "Books Catalog";
+            // 
+            // dataGridViewBooks
+            // 
+            this.dataGridViewBooks.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataGridViewBooks.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridViewBooks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewBooks.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewBooks.Location = new System.Drawing.Point(3, 20);
+            this.dataGridViewBooks.Name = "dataGridViewBooks";
+            this.dataGridViewBooks.RowHeadersWidth = 51;
+            this.dataGridViewBooks.RowTemplate.Height = 24;
+            this.dataGridViewBooks.Size = new System.Drawing.Size(579, 300);
+            this.dataGridViewBooks.TabIndex = 0;
+            // 
+            // deleteToolStripMenuItem
+            // 
+            this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.deleteToolStripMenuItem.Text = "&Delete";
+            // 
             // AdminDashboard
             // 
             this.AcceptButton = this.btnSearch;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnClose;
-            this.ClientSize = new System.Drawing.Size(1152, 535);
+            this.ClientSize = new System.Drawing.Size(1201, 652);
+            this.Controls.Add(this.groupBoxBooks);
+            this.Controls.Add(this.groupBoxPatrons);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.listBoxPatrons);
-            this.Controls.Add(this.labelPatrons);
-            this.Controls.Add(this.labelBooksCatalog);
-            this.Controls.Add(this.listBoxBooksCatalog);
             this.Controls.Add(this.groupBoxInventoryStats);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.menuStrip1);
@@ -397,6 +417,10 @@
             this.groupBoxInventoryStats.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPatrons)).EndInit();
+            this.groupBoxPatrons.ResumeLayout(false);
+            this.groupBoxBooks.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBooks)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -424,14 +448,10 @@
         private System.Windows.Forms.ToolStripMenuItem viewBooksToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem patronsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem profileToolStripMenuItem;
-        private System.Windows.Forms.ListBox listBoxBooksCatalog;
         private System.Windows.Forms.ToolStripMenuItem addPatronsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editPatronsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deletePatronsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem viewPatronsToolStripMenuItem;
-        private System.Windows.Forms.Label labelBooksCatalog;
-        private System.Windows.Forms.Label labelPatrons;
-        private System.Windows.Forms.ListBox listBoxPatrons;
         private System.Windows.Forms.ToolStripMenuItem updateProfileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
         private System.Windows.Forms.TextBox textBox1;
@@ -440,5 +460,10 @@
         private System.Windows.Forms.ComboBox comboBoxFilterAttribute;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ComboBox comboBoxFilterType;
+        private System.Windows.Forms.DataGridView dataGridViewPatrons;
+        private System.Windows.Forms.GroupBox groupBoxPatrons;
+        private System.Windows.Forms.GroupBox groupBoxBooks;
+        private System.Windows.Forms.DataGridView dataGridViewBooks;
+        private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
     }
 }

@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddBooksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBooksForm.Designer.cs">
+      <DependentUpon>AddBooksForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLibrarian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLibrarian.Designer.cs">
+      <DependentUpon>AddLibrarian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPatronForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPatronForm.Designer.cs">
+      <DependentUpon>AddPatronForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +72,12 @@
     </Compile>
     <Compile Include="Book.cs" />
     <Compile Include="BorrowingTransaction.cs" />
+    <Compile Include="EditPatronForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPatronForm.Designer.cs">
+      <DependentUpon>EditPatronForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Librarian.cs" />
     <Compile Include="Library.cs" />
     <Compile Include="Login.cs">
@@ -71,6 +95,12 @@
     <Compile Include="Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <Compile Include="UpdateBookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateBookForm.Designer.cs">
+      <DependentUpon>UpdateBookForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="User.cs" />
     <Compile Include="UserBookSearch.cs">
       <SubType>Form</SubType>
@@ -84,6 +114,15 @@
     <Compile Include="UserDashboard.Designer.cs">
       <DependentUpon>UserDashboard.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddBooksForm.resx">
+      <DependentUpon>AddBooksForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLibrarian.resx">
+      <DependentUpon>AddLibrarian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPatronForm.resx">
+      <DependentUpon>AddPatronForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminDashboard.resx">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +140,9 @@
     </Compile>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateBookForm.resx">
+      <DependentUpon>UpdateBookForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserBookSearch.resx">
       <DependentUpon>UserBookSearch.cs</DependentUpon>
