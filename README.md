@@ -72,9 +72,3 @@ Scaffold-DbContext "Connection String Here" Microsoft.EntityFrameworkCore.SqlSer
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Contact Information:
-
-- For inquiries or support, please contact [Your Email Address].
-
-Thank you for your interest in the Knowledge Hub project. Happy exploring!
