@@ -3115,11 +3115,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\warehouse\\knowledge-hub\\knowledge-hub.csproj",
+      "projectUniqueName": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\knowledge-hub.csproj",
       "projectName": "knowledge-hub",
-      "projectPath": "D:\\Projects\\warehouse\\knowledge-hub\\knowledge-hub.csproj",
+      "projectPath": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\knowledge-hub.csproj",
       "packagesPath": "C:\\Users\\ramee\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\warehouse\\knowledge-hub\\obj\\",
+      "outputPath": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

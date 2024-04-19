@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = knowledge_hub
-build_property.ProjectDir = D:\Projects\warehouse\knowledge-hub\
+build_property.ProjectDir = D:\ITS\OneDrive - Humber College\Semester 2\ITE-5230-IRA-Application Dev using C#.Net\Project\knowledge-hub\knowledge-hub\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h5ZZ6oi63N5iwMxihysCJlw8Q0kwk3sRYvur5FtY0bR+lHefqlGKbrZkXUdmLf2Z7gHPxcaci6i2Xj1nxEmQyw==",
+  "dgSpecHash": "+cvBOd6At/Pn6r6S9MHzyEs8Uspj2ifw/+Ge6FcMMHaCbBLkXLGEZv2MN9KKi7/Q4SE18pLKW6Fu/ysAnyJH/Q==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\warehouse\\knowledge-hub\\knowledge-hub.csproj",
+  "projectFilePath": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\knowledge-hub.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ramee\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ramee\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -67,8 +67,8 @@
     "C:\\Users\\ramee\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\ramee\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\ramee\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\ramee\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
     "C:\\Users\\ramee\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\ramee\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
     "C:\\Users\\ramee\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
     "C:\\Users\\ramee\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
   ],
