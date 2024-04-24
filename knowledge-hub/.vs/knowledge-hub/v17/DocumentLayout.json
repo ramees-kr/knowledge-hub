@@ -1,37 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\warehouse\\knowledge-hub\\",
+  "WorkspaceRootPath": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|d:\\projects\\warehouse\\knowledge-hub\\view\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|d:\\its\\onedrive - humber college\\semester 2\\ite-5230-ira-application dev using c#.net\\project\\knowledge-hub\\knowledge-hub\\view\\login\\registeruserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|solutionrelative:view\\login\\registeruserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|d:\\its\\onedrive - humber college\\semester 2\\ite-5230-ira-application dev using c#.net\\project\\knowledge-hub\\knowledge-hub\\view\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|solutionrelative:view\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|D:\\Projects\\warehouse\\knowledge-hub\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|solutionrelative:repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|D:\\Projects\\warehouse\\knowledge-hub\\repositories\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\repositories\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|solutionrelative:repositories\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|D:\\Projects\\warehouse\\knowledge-hub\\view\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\view\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|solutionrelative:view\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|D:\\Projects\\warehouse\\knowledge-hub\\view\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\view\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|solutionrelative:view\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|D:\\Projects\\warehouse\\knowledge-hub\\view\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\view\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|solutionrelative:view\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|D:\\Projects\\warehouse\\knowledge-hub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|D:\\Projects\\warehouse\\knowledge-hub\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{148B4559-1905-4F57-AF07-27D2D89393A0}|knowledge-hub.csproj|solutionrelative:viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AdminDashboard.cs",
-              "DocumentMoniker": "D:\\Projects\\warehouse\\knowledge-hub\\View\\AdminDashboard.cs",
+              "DocumentMoniker": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\View\\AdminDashboard.cs",
               "RelativeDocumentMoniker": "View\\AdminDashboard.cs",
-              "ToolTip": "D:\\Projects\\warehouse\\knowledge-hub\\View\\AdminDashboard.cs",
+              "ToolTip": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\View\\AdminDashboard.cs",
               "RelativeToolTip": "View\\AdminDashboard.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T15:49:11.948Z",
               "IsPinned": true,
@@ -60,11 +64,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Login.cs",
-              "DocumentMoniker": "D:\\Projects\\warehouse\\knowledge-hub\\View\\Login\\Login.cs",
+              "DocumentMoniker": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\View\\Login\\Login.cs",
               "RelativeDocumentMoniker": "View\\Login\\Login.cs",
-              "ToolTip": "D:\\Projects\\warehouse\\knowledge-hub\\View\\Login\\Login.cs",
+              "ToolTip": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\View\\Login\\Login.cs",
               "RelativeToolTip": "View\\Login\\Login.cs",
               "ViewState": "AQIAAEMAAAAAAAAAAAAcwF0AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,11 +77,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\Projects\\warehouse\\knowledge-hub\\ViewModel\\LoginViewModel.cs",
+              "DocumentMoniker": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\ViewModel\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\LoginViewModel.cs",
-              "ToolTip": "D:\\Projects\\warehouse\\knowledge-hub\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\ViewModel\\LoginViewModel.cs",
               "RelativeToolTip": "ViewModel\\LoginViewModel.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -86,23 +90,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AdminDashboard.cs [Design]",
-              "DocumentMoniker": "D:\\Projects\\warehouse\\knowledge-hub\\View\\AdminDashboard.cs",
+              "DocumentMoniker": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\View\\AdminDashboard.cs",
               "RelativeDocumentMoniker": "View\\AdminDashboard.cs",
               "ToolTip": "D:\\Projects\\warehouse\\knowledge-hub\\View\\AdminDashboard.cs [Design]",
-              "RelativeToolTip": "View\\AdminDashboard.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Projects\\warehouse\\knowledge-hub\\View\\AdminDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T21:55:08.368Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\warehouse\\knowledge-hub\\Program.cs",
+              "DocumentMoniker": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projects\\warehouse\\knowledge-hub\\Program.cs",
+              "ToolTip": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAWwBwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,12 +115,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Login.cs [Design]",
-              "DocumentMoniker": "D:\\Projects\\warehouse\\knowledge-hub\\View\\Login\\Login.cs",
+              "DocumentMoniker": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\View\\Login\\Login.cs",
               "RelativeDocumentMoniker": "View\\Login\\Login.cs",
               "ToolTip": "D:\\Projects\\warehouse\\knowledge-hub\\View\\Login\\Login.cs [Design]",
-              "RelativeToolTip": "View\\Login\\Login.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Projects\\warehouse\\knowledge-hub\\View\\Login\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T23:57:28.136Z",
               "IsPinned": true
@@ -135,11 +139,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "RegisterUserForm.cs [Design]",
+              "DocumentMoniker": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\View\\Login\\RegisterUserForm.cs",
+              "RelativeDocumentMoniker": "View\\Login\\RegisterUserForm.cs",
+              "ToolTip": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\View\\Login\\RegisterUserForm.cs [Design]",
+              "RelativeToolTip": "View\\Login\\RegisterUserForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T02:22:41.424Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "IBookRepository.cs",
-              "DocumentMoniker": "D:\\Projects\\warehouse\\knowledge-hub\\Repositories\\Interfaces\\IBookRepository.cs",
+              "DocumentMoniker": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\Repositories\\Interfaces\\IBookRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\IBookRepository.cs",
-              "ToolTip": "D:\\Projects\\warehouse\\knowledge-hub\\Repositories\\Interfaces\\IBookRepository.cs",
+              "ToolTip": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\Repositories\\Interfaces\\IBookRepository.cs",
               "RelativeToolTip": "Repositories\\Interfaces\\IBookRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -147,11 +163,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BookRepository.cs",
-              "DocumentMoniker": "D:\\Projects\\warehouse\\knowledge-hub\\Repositories\\BookRepository.cs",
+              "DocumentMoniker": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\Repositories\\BookRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\BookRepository.cs",
-              "ToolTip": "D:\\Projects\\warehouse\\knowledge-hub\\Repositories\\BookRepository.cs",
+              "ToolTip": "D:\\ITS\\OneDrive - Humber College\\Semester 2\\ITE-5230-IRA-Application Dev using C#.Net\\Project\\knowledge-hub\\knowledge-hub\\Repositories\\BookRepository.cs",
               "RelativeToolTip": "Repositories\\BookRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

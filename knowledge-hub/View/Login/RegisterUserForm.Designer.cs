@@ -197,7 +197,7 @@
             Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             Margin = new Padding(4);
             Name = "RegisterUserForm";
-            Text = "Add User Form";
+            Text = "Register User Form";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);
